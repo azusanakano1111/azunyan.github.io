@@ -1,0 +1,144 @@
+		nav {
+			color: black;
+			width: 100%;		
+			padding: 1%;
+			position: sticky;
+			display: inline-block;
+			background-image: url("../images/futamata.gif");
+			background-repeat: repeat-x;
+			background-position: center;
+			border-bottom: 1px solid white;
+		}
+		
+		nav h1 {
+			color: white;
+			font-weight: normal;
+			font-size: 40px;
+			text-shadow: 1px 1px #4d0d15;
+		}
+		
+		nav a {
+            color: white;
+            text-decoration: none;
+        }
+		
+		.mainText {
+            margin-left: 20px;
+        }
+
+        .mainText p {
+            padding-left: 10px;
+            font-size: 18px;
+        }
+
+		footer li {
+            margin-right: 20px;
+			padding-left: 10px;
+            font-size: 18px;
+			float: none;
+        }
+		
+		footer {
+			margin-left: 20px;
+		}
+
+        .mainText br {
+            line-height: normal;
+        }
+		
+		nav li {
+			list-style: none;
+		}
+		
+		nav li a:link {
+			display: block;
+			color: white;
+			padding: 10px;
+			text-decoration: none;
+		}
+		
+		nav li a:visited {
+			color: white;
+		}
+		
+		nav li a:hover {
+			background-color: rgb(38,70,83);
+			color: white;
+		}
+		
+		nav li a:active {
+			background-color: rgb(138,177,125);
+			color: white;
+		}
+		
+		body {
+            font-family: Verdana;
+			color: white;
+			background-color: black;
+        }
+
+        body, h1, ul {
+          	margin: 0;
+        }
+          
+        h1 {
+            display: inline-block;
+        }
+
+        nav li {
+            float: left;
+            margin-right: 20px;
+        }
+		
+		#socmed a {
+			display: block;
+			position: relative;
+		}
+ 
+		#socmed a.facebook {
+			height: 25px;
+			left: -0px;
+			width: 24px;
+			float: right;
+			background: url('../images/sprite.png') 0 -28px;
+		}
+		
+		#socmed a.youtube {
+			height: 25px;
+			left: -7px;
+			width: 24px;
+			float: right;
+			background: url('../images/sprite.png') 48px -28px;
+		}
+		
+		#socmed a.instagram {
+			height: 25px;
+			left: -14px;
+			width: 24px;
+			float: right;
+			background: url('../images/sprite.png') 24px -28px;
+		}
+		
+		#socmed a:hover.facebook {
+			height: 25px;
+			left: -0px;
+			width: 24px;
+			float: right;
+			background: url('../images/sprite.png') 0 0px;
+		}
+		
+		#socmed a:hover.youtube {
+			height: 25px;
+			left: -7px;
+			width: 24px;
+			float: right;
+			background: url('../images/sprite.png') 48px 0px;
+		}
+		
+		#socmed a:hover.instagram {
+			height: 25px;
+			left: -14px;
+			width: 24px;
+			float: right;
+			background: url('../images/sprite.png') 24px 0px;
+		}
